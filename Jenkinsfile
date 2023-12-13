@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        echo 'hello this is my message'
+      }
+    }
+
   }
 }
